@@ -1,0 +1,17 @@
+{
+  "name": "course-documents",
+  "version": "1.0.0",
+  "author": "Kyrie890514",
+  "packageManager": "pnpm@8.6.12",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "vitepress": "1.0.0-rc.4"
+  }
+}
