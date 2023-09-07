@@ -16,7 +16,7 @@ export default defineConfig({
     logo: { src: '/nana.png', width: 24, height: 24 },
     nav: [
       {
-        text: '从零开始学习Vim(VSCode)',
+        text: 'Vim(VSCode)',
         link: '/Vim-in-VSCode/1',
         activeMatch: '/Vim-in-VSCode/'
       }
