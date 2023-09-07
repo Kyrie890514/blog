@@ -2,18 +2,15 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'course documents',
-  base: '/course-documents/',
-  description: "Kyrie890514's course documents",
+  title: "Kyrie890514's blog",
+  base: '/blog/',
+  description: "Kyrie890514's blog",
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/nana.png' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'en' }],
-    [
-      'meta',
-      { name: 'og:site_name', content: "Kyrie890514's Course Documents" }
-    ]
+    ['meta', { name: 'og:site_name', content: "Kyrie890514's blog" }]
   ],
   themeConfig: {
     logo: { src: '/nana.png', width: 24, height: 24 },
@@ -57,14 +54,13 @@ export default defineConfig({
       provider: 'local'
     },
     editLink: {
-      pattern:
-        'https://github.com/Kyrie890514/course-documents/edit/main/:path',
+      pattern: 'https://github.com/Kyrie890514/blog/edit/main/:path',
       text: 'Edit this page on GitHub'
     },
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/Kyrie890514/course-documents'
+        link: 'https://github.com/Kyrie890514/blog'
       }
     ]
   }
