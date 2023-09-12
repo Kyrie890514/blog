@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: "Kyrie890514's blog",
+  title: "Kyrie890514's Blog",
   base: '/blog/',
-  description: "Kyrie890514's blog",
+  description: "Kyrie890514's Blog",
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/nana.png' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'en' }],
-    ['meta', { name: 'og:site_name', content: "Kyrie890514's blog" }]
+    ['meta', { name: 'og:site_name', content: "Kyrie890514's Blog" }]
   ],
   themeConfig: {
     logo: { src: '/nana.png', width: 24, height: 24 },

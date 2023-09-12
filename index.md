@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "Kyrie890514's blog"
+  name: "Kyrie890514's Blog"
   tagline: todo
   actions:
     - theme: brand
