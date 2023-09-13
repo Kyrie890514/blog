@@ -26,14 +26,23 @@ export default defineConfig({
         base: '/Vim-in-VSCode/',
         items: [
           {
+            text: 'Foreword',
+            items: [
+              {
+                text: '0. 前言',
+                link: '0'
+              }
+            ]
+          },
+          {
             text: 'Vim',
             items: [
               {
-                text: '1. introduction',
+                text: '1. 介绍',
                 link: '1'
               },
               {
-                text: '2. introduction',
+                text: '2. Hello, Vim',
                 link: '2'
               }
             ]
