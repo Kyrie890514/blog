@@ -44,6 +44,14 @@ export default defineConfig({
               {
                 text: '2. Hello, Vim',
                 link: '2'
+              },
+              {
+                text: '3. 快速移动',
+                link: '3'
+              },
+              {
+                text: '4. 超速移动',
+                link: '4'
               }
             ]
           },
