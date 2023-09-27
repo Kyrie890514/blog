@@ -50,7 +50,7 @@ export default defineConfig({
                 link: '3'
               },
               {
-                text: '4. 超速移动',
+                text: '4. 快速移动(2)',
                 link: '4'
               }
             ]
