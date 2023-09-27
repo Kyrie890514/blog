@@ -60,6 +60,18 @@ export default defineConfig({
               {
                 text: '6. 文本对象',
                 link: '6'
+              },
+              {
+                text: '7. Insert mode',
+                link: '7'
+              },
+              {
+                text: '8. Visual mode',
+                link: '8'
+              },
+              {
+                text: '9. Command-line mode',
+                link: '9'
               }
             ]
           },
