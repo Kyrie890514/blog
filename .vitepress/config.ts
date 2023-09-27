@@ -52,6 +52,14 @@ export default defineConfig({
               {
                 text: '4. 快速移动(2)',
                 link: '4'
+              },
+              {
+                text: '5. 操作',
+                link: '5'
+              },
+              {
+                text: '6. 文本对象',
+                link: '6'
               }
             ]
           },
