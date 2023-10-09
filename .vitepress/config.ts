@@ -72,6 +72,10 @@ export default defineConfig({
               {
                 text: '9. Command-line mode',
                 link: '9'
+              },
+              {
+                text: '10. 寄存器',
+                link: '10'
               }
             ]
           },
