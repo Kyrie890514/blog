@@ -83,8 +83,8 @@ export default defineConfig({
             text: 'VSCode',
             items: [
               {
-                text: '3. introduction',
-                link: '3'
+                text: '1. 文件与窗口',
+                link: '11'
               }
             ]
           }
