@@ -59,6 +59,10 @@ const sidebar = {
           {
             text: '10. 寄存器',
             link: '10'
+          },
+          {
+            text: '11. vim-surround',
+            link: '12'
           }
         ]
       },
@@ -66,7 +70,7 @@ const sidebar = {
         text: 'VSCode',
         items: [
           {
-            text: '11. 文件与窗口',
+            text: '12. 文件与窗口',
             link: '11'
           }
         ]
