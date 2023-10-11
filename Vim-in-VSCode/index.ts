@@ -57,11 +57,15 @@ const sidebar = {
             link: '9'
           },
           {
-            text: '10. 寄存器',
+            text: '10. 自定义 mapping',
+            link: '13'
+          },
+          {
+            text: '11. 寄存器',
             link: '10'
           },
           {
-            text: '11. vim-surround',
+            text: '12. vim-surround',
             link: '12'
           }
         ]
@@ -70,7 +74,7 @@ const sidebar = {
         text: 'VSCode',
         items: [
           {
-            text: '12. 文件与窗口',
+            text: '12. 窗口与文件',
             link: '11'
           }
         ]
