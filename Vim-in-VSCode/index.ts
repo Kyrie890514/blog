@@ -4,6 +4,11 @@ const nav = {
   activeMatch: '/Vim-in-VSCode/'
 }
 
+const getNum = (() => {
+  let num = 0
+  return () => num++ + '. '
+})()
+
 const sidebar = {
   '/Vim-in-VSCode/': {
     base: '/Vim-in-VSCode/',
@@ -12,7 +17,7 @@ const sidebar = {
         text: 'Foreword',
         items: [
           {
-            text: '0. 前言',
+            text: getNum() + `前言`,
             link: '0'
           }
         ]
@@ -21,59 +26,63 @@ const sidebar = {
         text: 'Vim',
         items: [
           {
-            text: '1. 介绍',
+            text: getNum() + `介绍`,
             link: '1'
           },
           {
-            text: '2. Hello, Vim',
+            text: getNum() + `Hello, Vim`,
             link: '2'
           },
           {
-            text: '3. 快速移动',
+            text: getNum() + `快速移动`,
             link: '3'
           },
           {
-            text: '4. 快速移动(2)',
+            text: getNum() + `快速移动(2)`,
             link: '4'
           },
           {
-            text: '5. 操作',
+            text: getNum() + `操作`,
             link: '5'
           },
           {
-            text: '6. 文本对象',
+            text: getNum() + `文本对象`,
             link: '6'
           },
           {
-            text: '7. Insert mode',
+            text: getNum() + `Insert mode`,
             link: '7'
           },
           {
-            text: '8. Visual mode',
+            text: getNum() + `Visual mode`,
             link: '8'
           },
           {
-            text: '9. Command-line mode',
+            text: getNum() + `Command-line mode`,
             link: '9'
           },
           {
-            text: '10. 自定义 mapping',
+            text: getNum() + `自定义 mapping`,
             link: '13'
           },
           {
-            text: '11. 寄存器',
+            text: getNum() + `寄存器`,
             link: '10'
           },
           {
-            text: '12. vim-surround',
+            text: getNum() + `宏操作`,
+            link: '16'
+          },
+          {
+            text: getNum() + `vim-surround`,
             link: '12'
           },
           {
-            text: '13. vim-sneak',
+            text: getNum() + `vim-sneak`,
             link: '14'
           },
           {
-            text: '14. vim-easymotion',
+            text: getNum() + `vim-easymotion`,
             link: '15'
           }
         ]
@@ -82,7 +91,7 @@ const sidebar = {
         text: 'VSCode',
         items: [
           {
-            text: '12. 窗口与文件',
+            text: getNum() + `窗口与文件`,
             link: '11'
           }
         ]
