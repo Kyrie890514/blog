@@ -71,6 +71,10 @@ const sidebar = {
           {
             text: '13. vim-sneak',
             link: '14'
+          },
+          {
+            text: '14. vim-easymotion',
+            link: '15'
           }
         ]
       },
