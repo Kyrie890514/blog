@@ -66,6 +66,10 @@ const sidebar = {
             link: '13'
           },
           {
+            text: getNum() + `文件跳转`,
+            link: '20'
+          },
+          {
             text: getNum() + `寄存器`,
             link: '10'
           },
