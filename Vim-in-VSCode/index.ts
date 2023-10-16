@@ -95,6 +95,23 @@ const sidebar = {
             link: '11'
           }
         ]
+      },
+      {
+        text: 'Afterword',
+        items: [
+          {
+            text: getNum() + `后记`,
+            link: '19'
+          },
+          {
+            text: getNum() + `我的配置`,
+            link: '18'
+          },
+          {
+            text: getNum() + `我的键盘`,
+            link: '17'
+          }
+        ]
       }
     ]
   }
