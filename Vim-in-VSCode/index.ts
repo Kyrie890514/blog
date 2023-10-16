@@ -97,6 +97,10 @@ const sidebar = {
           {
             text: getNum() + `窗口与文件`,
             link: '11'
+          },
+          {
+            text: getNum() + `native tabs`,
+            link: '19'
           }
         ]
       },
