@@ -101,19 +101,15 @@ const sidebar = {
         ]
       },
       {
-        text: 'Afterword',
+        text: 'Appendix',
         items: [
           {
-            text: getNum() + `后记`,
-            link: '19'
-          },
-          {
-            text: getNum() + `我的配置`,
-            link: '18'
+            text: getNum() + `VSCode 配置`,
+            link: '17'
           },
           {
             text: getNum() + `我的键盘`,
-            link: '17'
+            link: '18'
           }
         ]
       }
