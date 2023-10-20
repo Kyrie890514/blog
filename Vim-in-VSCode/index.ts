@@ -99,11 +99,11 @@ const sidebar = {
         text: 'VSCode',
         items: [
           {
-            text: getNum() + `窗口与文件`,
+            text: getNum() + `窗口操作`,
             link: '11'
           },
           {
-            text: getNum() + `native tabs`,
+            text: getNum() + `文件操作`,
             link: '19'
           }
         ]
