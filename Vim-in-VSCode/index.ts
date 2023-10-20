@@ -88,6 +88,10 @@ const sidebar = {
           {
             text: getNum() + `vim-easymotion`,
             link: '15'
+          },
+          {
+            text: getNum() + `vim-indent-object`,
+            link: '21'
           }
         ]
       },
