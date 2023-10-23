@@ -107,7 +107,7 @@ const sidebar = {
             link: '19'
           },
           {
-            text: getNum() + `常用小技巧`,
+            text: getNum() + `常用操作`,
             link: '22'
           }
         ]
