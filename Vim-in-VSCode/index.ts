@@ -105,6 +105,10 @@ const sidebar = {
           {
             text: getNum() + `文件操作`,
             link: '19'
+          },
+          {
+            text: getNum() + `常用小技巧`,
+            link: '22'
           }
         ]
       },
