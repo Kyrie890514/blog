@@ -9,7 +9,7 @@ const sidebar = {
     base: '/daily/',
     items: [
       {
-        text: '如何写出优雅的代码',
+        text: 'todo',
         link: '1'
       }
     ]
