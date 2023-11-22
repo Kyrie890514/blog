@@ -126,6 +126,15 @@ const sidebar = {
         ]
       },
       {
+        text: 'Mac',
+        items: [
+          {
+            text: getNum() + `常用快捷键`,
+            link: '25'
+          }
+        ]
+      },
+      {
         text: 'Appendix',
         items: [
           {
