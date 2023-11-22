@@ -1,5 +1,5 @@
 const nav = {
-  text: '学习Vim(VSCode)',
+  text: 'Vim(VSCode)',
   link: '/Vim-in-VSCode/0',
   activeMatch: '/Vim-in-VSCode/'
 }
