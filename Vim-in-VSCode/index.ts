@@ -113,6 +113,15 @@ const sidebar = {
         ]
       },
       {
+        text: 'Chrome',
+        items: [
+          {
+            text: getNum() + `Vimium C`,
+            link: '23'
+          }
+        ]
+      },
+      {
         text: 'Appendix',
         items: [
           {
