@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { nav as VimNav, sidebar as VimSidebar } from '../Vim-in-VSCode'
 import { nav as othersNav, sidebar as othersSidebar } from '../others'
-import { nav as dailyNav, sidebar as dailySidebar } from '../daily'
 
 export default defineConfig({
   lang: 'en-US',
@@ -17,10 +16,9 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: { src: '/nana.png', width: 24, height: 24 },
-    nav: [VimNav, dailyNav, othersNav],
+    nav: [VimNav, othersNav],
     sidebar: {
       ...VimSidebar,
-      ...dailySidebar,
       ...othersSidebar
     },
     search: {
