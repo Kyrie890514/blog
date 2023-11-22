@@ -118,6 +118,10 @@ const sidebar = {
           {
             text: getNum() + `Vimium C`,
             link: '23'
+          },
+          {
+            text: getNum() + `Devtools`,
+            link: '24'
           }
         ]
       },
